@@ -79,10 +79,6 @@ pnpm test
 pnpm lint
 ```
 
-### Create a new tool
-
-To create a new tool, there is a script that generate the boilerplate of the new tool, simply run:
-
 ```sh
 pnpm run script:create:tool my-tool-name
 ```
