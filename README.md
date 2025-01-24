@@ -1,11 +1,3 @@
-<picture>
-    <source srcset="./.github/logo-dark.png" media="(prefers-color-scheme: light)">
-    <source srcset="./.github/logo-white.png" media="(prefers-color-scheme: dark)">
-    <img src="./.github/logo-dark.png" alt="logo">
-</picture>
-
-Useful tools for developer and people working in IT. [Have a look !](https://it-tools.tech).
-
 ## Self host
 
 Self host solutions for your homelab
@@ -21,12 +13,6 @@ docker run -d --name it-tools --restart unless-stopped -p 8080:80 corentinth/it-
 ```sh
 docker run -d --name it-tools --restart unless-stopped -p 8080:80 ghcr.io/corentinth/it-tools:latest
 ```
-
-**Other solutions:**
-
-- [Cloudron](https://www.cloudron.io/store/tech.ittools.cloudron.html)
-- [Tipi](https://www.runtipi.io/docs/apps-available)
-- [Unraid](https://unraid.net/community/apps?q=it-tools)
 
 ## Contribute
 
